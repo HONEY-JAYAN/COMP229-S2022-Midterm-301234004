@@ -9,7 +9,7 @@
           <!--ADD BUTTON -->
           <!-- ------------------------ -->
         
-          <a href="/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
+          <a href="books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
         
           <br>
           <div class="table-responsive">
@@ -41,7 +41,7 @@
                     <!-- ------------------------ -->
                     <!-- EDIT BUTTON HERE -->
                     <!-- ------------------------ -->
-                    <a href="/edit/<%= books[count]._id %>" class="btn btn-primary"><i class="fa fa-pencil-square-o "></i> Edit</a>
+                    <a href="books/<%= books[count]._id %>" class="btn btn-primary"><i class="fa fa-pencil-square-o "></i> Edit</a>
                   </td>
 
               
@@ -51,7 +51,7 @@
                     <!-- ------------------------ -->
                     <!-- DELETE BUTTON HERE -->
                     <!-- ------------------------ -->
-                    <a href="/delete/<%= books[count]._id %>" class="btn btn-warning"><i class="fa fa-trash"></i> Delete</a>
+                    <a href="books/delete/<%= books[count]._id %>" class="btn btn-warning"><i class="fa fa-trash"></i> Delete</a>
                   </td>
                   <% } %>
                 </tr>
